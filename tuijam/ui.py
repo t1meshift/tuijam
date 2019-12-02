@@ -203,7 +203,7 @@ class SearchPanel(urwid.ListBox):
                 pass
 
     def update_search_results(
-        self, *categories, title=None, isprevsong=False
+        self, *categories, title=_("Search Results"), isprevsong=False
     ):
         if title is None:
             title = _("Search Results")
