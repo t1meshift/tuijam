@@ -1,6 +1,4 @@
 from os.path import join, expanduser
-import gettext
-_ = gettext.gettext
 
 __version__ = "0.7.1"
 CONFIG_DIR = join(expanduser("~"), ".config", "tuijam")
